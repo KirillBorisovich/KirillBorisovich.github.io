@@ -1,7 +1,7 @@
 for (var i = 0; i <= 3; i++) {
 	document.querySelectorAll('#button')[i].addEventListener('click',function () {
 		document.getElementById('form').classList.add('open')
-		document.getElementById('body').classList.add('model-open')
+		document.getElementById('html').classList.add('model-open')
 	}) 
 };
 document.getElementById('button-close2').addEventListener('click',function () {
