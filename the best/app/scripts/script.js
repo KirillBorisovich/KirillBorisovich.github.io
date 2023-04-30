@@ -6,13 +6,13 @@ for (var i = 0; i <= 3; i++) {
 };
 document.getElementById('button-close2').addEventListener('click',function () {
 	document.getElementById('form').classList.remove('open')
-	document.getElementById('body').classList.remove('model-open')
+	document.getElementById('html').classList.remove('model-open')
 }) ;
 
 window.addEventListener('keydown', (e) => {
 	if (e.key === 'Escape') {
 		document.getElementById('form').classList.remove('open')
-		document.getElementById('body').classList.remove('model-open')
+		document.getElementById('html').classList.remove('model-open')
 	}
 });
 
