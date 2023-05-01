@@ -690,7 +690,7 @@ body.model-open{
 	justify-content: center;
 	position: fixed;
 	z-index: 20;
-	top: 0;
+	height: 100vh;
 	bottom: 0;
 	visibility: hidden;
 	opacity: 0;
