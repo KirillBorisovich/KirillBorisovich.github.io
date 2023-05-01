@@ -1,18 +1,30 @@
 for (var i = 0; i <= 3; i++) {
-	document.querySelectorAll('#button')[i].addEventListener('click',function () {
+	document.querySelectorAll('#button')[i].addEventListener('click', function () {
 		document.getElementById('form').classList.add('open')
 		document.getElementById('body').classList.add('model-open')
+		let div = document.createElement('div');
+		div.style.overflowY = 'scroll';
+		div.style.width = '50px';
+		div.style.height = '50px';
+		document.body.append(div);
+		let paddingOffset = div.offsetWidth - div.clientWidth + 'px';
+		console.log(div.offsetWidth, div.clientWidth)
+		div.remove();
+		
+		document.body.style.paddingRight = paddingOffset;
 	}) 
 };
 document.getElementById('button-close2').addEventListener('click',function () {
 	document.getElementById('form').classList.remove('open')
 	document.getElementById('body').classList.remove('model-open')
+	document.body.style.paddingRight = '0px';
 }) ;
 
 window.addEventListener('keydown', (e) => {
 	if (e.key === 'Escape') {
 		document.getElementById('form').classList.remove('open')
 		document.getElementById('body').classList.remove('model-open')
+		document.body.style.paddingRight = '0px';
 	}
 });
 

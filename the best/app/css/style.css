@@ -77,6 +77,8 @@ button:hover{
 
 body.model-open{
 	overflow: hidden;
+	
+/*	position: relative;*/
 }
 /*OBL*/
 .obl{
