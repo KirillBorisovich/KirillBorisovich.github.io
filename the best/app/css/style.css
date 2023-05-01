@@ -699,7 +699,6 @@ body.model-open{
 }
 
 .forma.open{
-	overflow: hidden;
 	visibility: visible;
 	opacity: 1;
 }
