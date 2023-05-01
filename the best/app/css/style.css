@@ -691,6 +691,7 @@ body.model-open{
 	height: 100vh;
 	position: fixed;
 	z-index: 20;
+	top: 0;
 	bottom: 0;
 	visibility: hidden;
 	opacity: 0;
