@@ -1095,22 +1095,29 @@ body.model-open{
 	}
 	.sec8-input1{
 		width: 89%;
+		padding: .5em .5em;
 	}
 	.forma-conts form textarea{
 		width: 89%;
+		padding: 0.5em 0.5em;
 	}
 	.forma-conts form button{
 		border-radius: 1em;
+		font-size: 1.1rem;
 	}
 	.sec7-checkbox{
-		margin-left: 1em;
+		width: 8%;
 	}
 	.forma-conts form h2{
 		width: 90%;
-		font-size: 2.4rem;
+		font-size: 1.4rem;
+		margin-bottom: 0.3m;
 	}
 	.forma-btn-close{
 		width: 6%;
 		height: 6%;
+	}
+	.forma-conts form label{
+		font-size: 1rem;
 	}
 }
