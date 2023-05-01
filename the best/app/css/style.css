@@ -688,7 +688,6 @@ body.model-open{
 	width: 100vw;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
 	position: fixed;
 	z-index: 20;
 	top: 0;
